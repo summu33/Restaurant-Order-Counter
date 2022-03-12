@@ -180,7 +180,7 @@ key.geometry('1350x750+0+0')  # open window size..
 key.title("Project BY Sumit Kumar.")
 
 #selecting an image to set in window
-path='C:/Users/wave/Desktop/Internet Exploral/sumit.jpg'
+path='C:/Users/wave/Desktop/Internet Exploral/bg.jpg'
 imgg=Image.open(path)
 imgg=imgg.resize((1400,650))
 imag=ImageTk.PhotoImage(imgg)
